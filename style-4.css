@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .components {
     width: 656px;
     height: 630px;
@@ -11,7 +14,6 @@
 .top-comp {
     margin: 0 auto;
     padding-right: 43px;
-    padding-bottom: 20px;
 
 }
 .top-comp input::placeholder {
@@ -49,7 +51,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 div.add-icon {
     background-color: #55c17b;
