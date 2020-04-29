@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 778px;
+  height: 585px;
+  border: 1.5px solid #DDD;
+  margin: 100px;
+  border-radius: 5px;
+}
+.caption {
+  font-size: 20px;
+  color: #535e69;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DDD;
+  display: flex;
+  position: relative;
+}
+.caption i {
+  font-size: 33px;
+  color: #535e69;
+  position: absolute;
+  right: 40px;
+}
+.logo {
+  padding-top: 20px;
+}
+.logo img:nth-child(1) {
+  width: 116px;
+  height: 71px;
+  border: 1px solid #7eadf2;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 38px;
+}
+.logo img:nth-child(2) {
+  width: 113px;
+  height: 71px;
+  border: 1px solid #7eadf2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.clear::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.formbox {
+  margin: 38px 38px 0 38px;
+  color: #2d3944;
+  font-size: 20px;
+}
+
+.formbox input {
+  margin-bottom: 35px;
+  margin-top: 8px;
+  height: 60px;
+  border: 2px solid #b0d8fe;
+  border-radius: 6px;
+  padding-left: 20px;
+  font-size: 23px;
+
+}
+.formbox .namebox input {
+  width: 100%;
+}
+.inline {
+  display: flex;
+}
+.inline input {
+  width: 100%;
+}
+.inline .numbox {
+  flex-basis: 368px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.inline .datebox {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.inline .datebox {
+  flex-basis: 150px;
+  flex-grow: 1;
+}
+.inline .ccvbox {
+  flex-basis: 150px;
+  flex-grow: 1;
+}
+.note {
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+.note i {
+  color: #69a5dc;
+  font-size: 35px;
+  margin-left: 40px;
+}
+.note p {
+  font-size: 24px;
+  position: absolute;
+  top: 5px;
+  left: 80px;
+  color: #5b5b5b;
+}
